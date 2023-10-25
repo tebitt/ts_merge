@@ -6,13 +6,13 @@ Merge functions for Primo interview. We are using bun as the runtime, package ma
 curl -fsSL https://bun.sh/install | bash
 ```   
   
-2. Clone this repository.
+2. Clone this repository
 
 ```bash
 git clone https://github.com/tebitt/ts_merge.git
 ```
 
-3. To Run
+3. To run
 
 ```bash
 bun test
