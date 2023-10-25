@@ -1,15 +1,19 @@
-# primo_interview
+Merge functions for Primo interview. We are using bun as the runtime, package manager, and test runner.
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
+1. Install bun
 
 ```bash
-bun run index.ts
+curl -fsSL https://bun.sh/install | bash
+```   
+  
+2. Clone this repository.
+
+```bash
+git clone https://github.com/tebitt/ts_merge.git
 ```
 
-This project was created using `bun init` in bun v1.0.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+3. To Run
+
+```bash
+bun test
+```
